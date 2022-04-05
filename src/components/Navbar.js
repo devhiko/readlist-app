@@ -11,7 +11,7 @@ const Navbar = () => {
     <nav
       style={{ background: theme.ui, color: theme.syntax }}
     >
-      <h1>Context App</h1>
+      <h1>Book Shelf</h1>
       <div onClick={toggleAuth}>
         {isAuth ? 'Logged In' : 'Logged Out'}
       </div>
